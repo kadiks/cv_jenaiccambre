@@ -55,10 +55,13 @@ a, a:active, a:visited, a:hover {
   color: #B90000;
 }
 
-.introduction img {
+.introduction img, .part-testimonial img {
   width: 140px;
   height: 140px;
   border-radius: 70px;
+}
+.part-testimonial img {
+  margin-top: -1px;
 }
 .img-border {
   width: 146px;
@@ -117,19 +120,24 @@ blockquote {
   background-color: #0073a4;
 }
 
-.part-profile, .part-skills {
+.part-profile, .part-skills, .part-education {
   background-color: #B90000;
   color: #FFF;
 }
 .part-profile, .part-education {
   padding-bottom: 30px;
 }
-.part-profile a, .part-skills a {
+.part-profile a, .part-skills a, .part-education a {
   color: #333;
 }
 .part-skills h3, .part-skills h4,
-.part-profile h3 {
+.part-profile h3, .part-education h3,
+.part-education h4 {
   color: #FFF;
+}
+
+.part-testimonial h4 {
+  text-align: center;
 }
 
 .experience {
