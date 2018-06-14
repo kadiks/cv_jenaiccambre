@@ -1,3 +1,3 @@
 # CV of Jénaïc Cambré
 
-http://jenaiccambre.com/
+http://cv.jenaiccambre.com/
